@@ -32,10 +32,10 @@ accent: {{blue}}
   --text-4: {{hsl subtext0}};
   --text-5: {{hsl (mix text base 0.5)}};
 
-  --bg-1: {{hsl base}};
+  --bg-1: {{hsl mantle}};
   --bg-2: {{hsl overlay0}};
-  --bg-3: {{hsl mantle}};
-  --bg-4: {{hsl base}};
+  --bg-3: {{hsl base}};
+  --bg-4: {{hsl mantle}};
 
   --hover: {{hsl surface1}};
   --active: {{hsl surface1}};
