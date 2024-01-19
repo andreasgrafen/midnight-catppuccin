@@ -15,7 +15,7 @@ accent: {{blue}}
   --dnd-indicator: {{hsl red}};
   --idle-indicator: {{hsl yellow}};
 
-  --accent-1: {{hsl (darken accent 0)}};
+  --accent-1: {{hsl accent}};
   --accent-2: {{hsl (darken accent 0.05)}};
   --accent-3: {{hsl (darken accent 0.075)}};
   --accent-4: {{hsl (darken accent 0.10)}};
