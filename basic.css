@@ -37,7 +37,7 @@ accent: {{blue}}
   --bg-3: {{hsl base}};
   --bg-4: {{hsl mantle}};
 
-  --hover: {{hsl surface1}};
-  --active: {{hsl surface1}};
+  --hover: {{hsl surface0}};
+  --active: {{hsl surface0}};
 
 }

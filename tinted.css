@@ -21,9 +21,9 @@ accent: {{blue}}
   --accent-4: {{hsl (darken accent 0.10)}};
   --accent-5: {{hsl (darken accent 0.15)}};
 
-  --mention: {{hsla (mix accent base 0.15)}};
-  --mention-hover: {{hsla (mix accent base 0.2)}};
-  --message-hover: {{hsl (mix accent base 0.2)}};
+  --mention: {{hsla (mix accent mantle 0.15)}};
+  --mention-hover: {{hsla (mix accent mantle 0.2)}};
+  --message-hover: {{hsl (mix accent mantle 0.2)}};
 
   --text-0: {{hsl crust}};
   --text-1: var(--text-2);
@@ -37,7 +37,7 @@ accent: {{blue}}
   --bg-3: {{hsl (darken (mix accent base 0.2) 0.075)}};
   --bg-4: {{hsl (darken (mix accent mantle 0.2) 0.075)}};
 
-  --hover: {{hsl (darken (mix accent surface1 0.2) 0.075)}};
-  --active: {{hsl (darken (mix accent surface1 0.2) 0.075)}};
+  --hover: {{hsl (darken (mix accent surface0 0.2) 0.075)}};
+  --active: {{hsl (darken (mix accent surface0 0.2) 0.075)}};
 
 }
