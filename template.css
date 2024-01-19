@@ -1,0 +1,43 @@
+---
+titleText: 'Catppuccin'
+accent: {{blue}}
+---
+
+
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+:root {
+
+  --corner-text: '{{titleText}}';
+
+  --online-indicator: {{hsl green}};
+  --dnd-indicator: {{hsl red}};
+  --idle-indicator: {{hsl yellow}};
+
+  --accent-1: {{hsl (darken accent 0)}};
+  --accent-2: {{hsl (darken accent 0.05)}};
+  --accent-3: {{hsl (darken accent 0.075)}};
+  --accent-4: {{hsl (darken accent 0.10)}};
+  --accent-5: {{hsl (darken accent 0.15)}};
+
+  --mention: {{hsla (opacity accent 0.1)}};
+  --mention-hover: {{hsla (opacity accent 0.075)}};
+  --message-hover: {{hsl (mix mantle base 0.5)}};
+
+  --text-0: {{hsl crust}};
+  --text-1: var(--text-2);
+  --text-2: {{hsl text}};
+  --text-3: {{hsl subtext1}};
+  --text-4: {{hsl subtext0}};
+  --text-5: {{hsl (mix text base 0.5)}};
+
+  --bg-1: {{hsl base}};
+  --bg-2: {{hsl overlay0}};
+  --bg-3: {{hsl mantle}};
+  --bg-4: {{hsl base}};
+
+  --hover: {{hsl surface1}};
+  --active: {{hsl surface1}};
+
+}
